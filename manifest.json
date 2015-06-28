@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Alien This",
+  "description": "This extension finds reddit discussions for the current webpage.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "reddit2.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/",
+    "https://www.reddit.com/"
+  ]
+}
